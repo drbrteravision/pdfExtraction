@@ -75,7 +75,7 @@ module.exports = {
             host: 'localhost',
             port: 3000,
             // server: { baseDir: ['dist'] },
-            proxy:'http://192.168.8.44:8000/'
+            proxy:'localhost:8000/'
           }),
           new webpack.ProvidePlugin({  //This was added for @react-pdf/renderer component
             Buffer: ["buffer", "Buffer"],
