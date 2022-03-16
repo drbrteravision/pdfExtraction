@@ -1,0 +1,18 @@
+{% extends 'index.html' %}
+
+{% block header %}
+    {% include 'components/menu.html' %}
+    {{ pdf|json_script:"database" }}
+{% endblock %}
+
+{% block content %}
+    
+    <div id="main" value="{{name}}">
+    </div>
+  
+  
+{% endblock%}
+
+{% block footer %}
+    {% include 'components/footer.html' %}
+{% endblock %}

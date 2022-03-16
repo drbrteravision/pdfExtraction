@@ -1,0 +1,33 @@
+body {
+
+    #main  {
+        .pdf-extraction {
+            padding-top: 20px;
+        }
+
+        .react-pdf__Document{
+            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+        }
+
+        .container {
+            .text-extracted-container {
+                box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                max-height: 790px;
+            }
+
+            .text-extracted-page {
+                white-space: pre-wrap;
+                overflow-y: scroll;
+                max-height: 790px;
+                font-size: 14px;
+            }
+            // border: 1px solid black;
+        }
+    }
+    footer {
+       text-align: center;
+   }
+
+
+}
+

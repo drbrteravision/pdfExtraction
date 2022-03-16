@@ -1,0 +1,53 @@
+{
+  "name": "doc_project",
+  "version": "1.0.0",
+  "description": "This is an OCR test project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "autoprefixer": "^10.4.2",
+    "babel-loader": "^8.2.3",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "node-sass": "^7.0.1",
+    "postcss": "^8.4.8",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.4.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/pickers": "^3.3.10",
+    "@mui/icons-material": "^5.5.0",
+    "@mui/material": "^5.5.0",
+    "@popperjs/core": "^2.11.2",
+    "assert": "^2.0.0",
+    "bootstrap": "^5.1.3",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "draft-js": "^0.11.7",
+    "final-form": "^4.20.6",
+    "jquery": "^3.6.0",
+    "process": "^0.11.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-final-form": "^6.5.8",
+    "react-pdf": "^5.7.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4"
+  }
+}
